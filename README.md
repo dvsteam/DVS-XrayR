@@ -8,7 +8,7 @@ DVSTEAM dựa theo mã nguồn gốc của XrayR để mod lại tiếng việt 
 
 Tìm mã nguồn tại đây: [XrayR-project/XrayR](https://github.com/XrayR-project/XrayR)
 
-# Hình ảnh mẫu
+# Hình ảnh demo
 
 ![image](https://github.com/dvsteam/DVS-XrayR/assets/91702958/78d3fd48-04c6-4713-ab39-8baae5d92c92)
 
