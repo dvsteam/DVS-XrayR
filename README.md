@@ -22,7 +22,7 @@ bash <(curl -Ls https://raw.githubusercontent.com/dvsteam/DVS-XrayR/main/dvs-ins
 (Cấu Hình Hiện Tại Chỉ Hỗ Trợ Cổng 80)
 
 
-Nếu Cần Hỗ Trợ Thêm Tự Động Cổng 443 Vui Lòng Liên Hệ Admin Sỹ, để thiết lập riêng chứng chỉ cho cổng 443
+Nếu Cần Hỗ Trợ Cổng 443 1vps 2cổng 80 và 443 thì, Vui Lòng Liên Hệ Admin Sỹ, để thiết lập riêng
 # Zalo: 08353.15551
 
 [Zalo](https://zalo.me/dvsteam) - [Telegram](https://t.me/DuongVanSy)
