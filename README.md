@@ -12,9 +12,9 @@ Tìm mã nguồn tại đây: [XrayR-project/XrayR](https://github.com/XrayR-pro
 
 ![image](https://github.com/dvsteam/DVS-XrayR/assets/91702958/78d3fd48-04c6-4713-ab39-8baae5d92c92)
 
-🔰 Ae nào dùng V2board v1.7.0 trở lên thì chọn NewV2board để dụng API mới nha, API mới giới hạn tốc độ trực tiếp trên gói, không cần nhập trong config
+🔰(PanelType: NewV2board)Ae nào dùng V2board v1.7.0 trở lên thì, chọn NewV2board để dụng API mới nha, API mới giới hạn tốc độ trực tiếp trên gói, không cần nhập trong config
 
-🔰 Ae nào dùng Xflash hay V2board v1.6.0 trở xuống thì không thể dùng API mới được, nên ae chọn (PanelType: V2board) để không bị lỗi nha.
+🔰(PanelType: V2board)Ae nào dùng Xflash hay V2board v1.6.0 trở xuống, thì không thể dùng API mới được, nên ae chọn (PanelType: V2board) để không bị lỗi nha.
 # ⚙️Cài đặt Xrayr Với 1 Lệnh
 ```
 bash <(curl -Ls https://raw.githubusercontent.com/dvsteam/DVS-XrayR/main/dvs-install.sh)
