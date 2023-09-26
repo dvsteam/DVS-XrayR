@@ -15,15 +15,15 @@ Tìm mã nguồn tại đây: [XrayR-project/XrayR](https://github.com/XrayR-pro
 🔰(PanelType: NewV2board)Ae nào dùng V2board v1.7.0 trở lên thì, chọn NewV2board để dụng API mới nha, API mới giới hạn tốc độ trực tiếp trên gói, không cần nhập trong config
 
 🔰(PanelType: V2board)Ae nào dùng Xflash hay V2board v1.6.0 trở xuống, thì không thể dùng API mới được, nên ae chọn (PanelType: V2board) để không bị lỗi nha.
-# ⚙️Cài đặt Xrayr Với 1 Lệnh
+#⚙️Cài đặt Xrayr Với 1 Lệnh
 ```
 bash <(curl -Ls https://raw.githubusercontent.com/dvsteam/DVS-XrayR/main/dvs-install.sh)
 ```
 (Cấu Hình Hiện Tại Chỉ Hỗ Trợ Cổng 80)
 
 
-Nếu Cần Hỗ Trợ Cổng 443
-1vps server sẽ có 2cổng 80 và 443 thì, Vui Lòng Liên Hệ Admin Sỹ, để thiết lập riêng
+Nếu Cần Hỗ Trợ Cổng 443,
+1vps server sẽ có 2cổng 80 và 443, Vui Lòng Liên Hệ Admin Sỹ, để thiết lập riêng
 # Zalo: 08353.15551
 
 [Zalo](https://zalo.me/dvsteam) - [Telegram](https://t.me/DuongVanSy)
