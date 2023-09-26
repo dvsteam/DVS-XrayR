@@ -1,0 +1,373 @@
+Phiên bản giấy phép công cộng Mozilla 2.0
+==================================
+
+1. Định nghĩa
+--------------
+
+1.1. "Người đóng góp"
+    nghĩa là mỗi cá nhân hoặc pháp nhân tạo ra, đóng góp vào
+    việc tạo hoặc sở hữu Phần mềm được bảo hiểm.
+
+1.2. "Phiên bản đóng góp"
+    nghĩa là sự kết hợp Đóng góp của người khác (nếu có) được sử dụng
+    bởi một Cộng tác viên và Đóng góp của Cộng tác viên cụ thể đó.
+
+1.3. "Sự đóng góp"
+    nghĩa là Phần mềm được bảo hiểm của một Người đóng góp cụ thể.
+
+1.4. "Phần mềm được bảo hiểm"
+    nghĩa là Biểu mẫu mã nguồn mà Người đóng góp ban đầu đã đính kèm
+    thông báo trong Phụ lục A, Mẫu thực thi của Mã nguồn đó
+    Biểu mẫu và Sửa đổi Biểu mẫu Mã nguồn đó trong từng trường hợp
+    bao gồm các phần của chúng.
+
+1.5. "Không tương thích với giấy phép phụ"
+    có nghĩa
+
+    (a) rằng Người đóng góp ban đầu đã đính kèm thông báo được mô tả
+        trong Phụ lục B của Phần mềm được bao gồm; hoặc
+
+    (b) rằng Phần mềm được bao gồm đã được cung cấp theo các điều khoản của
+        phiên bản 1.1 hoặc cũ hơn của Giấy phép, nhưng cũng không theo
+        các điều khoản của Giấy phép phụ.
+
+1.6. "Mẫu thực thi"
+    có nghĩa là bất kỳ dạng tác phẩm nào ngoài Biểu mẫu mã nguồn.
+
+1.7. "Công việc lớn hơn"
+    nghĩa là một tác phẩm kết hợp Phần mềm được bao gồm với tài liệu khác, trong
+    một hoặc nhiều tệp riêng biệt không phải là Phần mềm được bao gồm.
+
+1.8. "Giấy phép"
+    có nghĩa là tài liệu này.
+
+1.9. "Có thể cấp phép"
+    có nghĩa là có quyền cho phép, ở mức độ tối đa có thể,
+    cho dù tại thời điểm cấp lần đầu hay sau đó, bất kỳ và
+    tất cả các quyền được chuyển tải bởi Giấy phép này.
+
+1.10. "Sửa đổi"
+    có nghĩa là bất kỳ điều nào sau đây:
+
+    (a) bất kỳ tệp nào trong Biểu mẫu mã nguồn là kết quả của việc bổ sung vào,
+        xóa hoặc sửa đổi nội dung của Covered
+        Phần mềm; hoặc
+
+    (b) bất kỳ tệp mới nào trong Biểu mẫu mã nguồn có chứa bất kỳ Thông tin bảo hiểm nào
+        Phần mềm.
+
+1.11. "Tuyên bố về bằng sáng chế" của người đóng góp
+    nghĩa là bất kỳ khiếu nại nào về bằng sáng chế, bao gồm nhưng không giới hạn, phương pháp,
+    các yêu cầu về quy trình và thiết bị trong bất kỳ bằng sáng chế nào được cấp phép bởi cơ quan đó
+    Người đóng góp sẽ bị vi phạm, nhưng để được cấp quyền
+    Giấy phép, bằng cách chế tạo, sử dụng, bán, chào bán, sở hữu
+    thực hiện, nhập khẩu hoặc chuyển giao Đóng góp của mình hoặc
+    Phiên bản đóng góp.
+
+1.12. "Giấy phép thứ cấp"
+    nghĩa là Giấy phép Công cộng GNU, Phiên bản 2.0, GNU
+    Giấy phép Công cộng Chung Ít hơn, Phiên bản 2.1, GNU Affero General
+    Giấy phép Công cộng, Phiên bản 3.0 hoặc bất kỳ phiên bản nào mới hơn của chúng
+    giấy phép.
+
+1.13. "Mẫu mã nguồn"
+    nghĩa là hình thức tác phẩm được ưu tiên để thực hiện sửa đổi.
+
+1.14. “Bạn” (hoặc “Của bạn”)
+    có nghĩa là một cá nhân hoặc một pháp nhân thực hiện các quyền theo quy định này
+    Giấy phép. Đối với các pháp nhân, "Bạn" bao gồm bất kỳ thực thể nào
+    kiểm soát, được kiểm soát hoặc nằm dưới sự kiểm soát chung của Bạn. Vì
+    mục đích của định nghĩa này, "kiểm soát" có nghĩa là (a) quyền lực, trực tiếp
+    hoặc gián tiếp, để chỉ đạo hoặc quản lý đơn vị đó,
+    dù theo hợp đồng hay bằng cách khác, hoặc (b) quyền sở hữu nhiều hơn
+    năm mươi phần trăm (50%) số cổ phiếu đang lưu hành hoặc được hưởng lợi
+    quyền sở hữu của đơn vị đó.
+
+2. Cấp giấy phép và điều kiện
+--------------------------------
+
+2.1. tài trợ
+
+Mỗi Cộng tác viên theo đây cấp cho Bạn quyền truy cập trên toàn thế giới, miễn phí bản quyền,
+giấy phép không độc quyền:
+
+(a) theo quyền sở hữu trí tuệ (trừ bằng sáng chế hoặc nhãn hiệu)
+    Người đóng góp đó có thể cấp phép để sử dụng, sao chép, cung cấp,
+    sửa đổi, hiển thị, thực hiện, phân phối và khai thác nó
+    Đóng góp, trên cơ sở chưa sửa đổi, có Sửa đổi hoặc
+    như một phần của Công việc lớn hơn; Và
+
+(b) theo Yêu cầu bằng sáng chế của Người đóng góp đó để tạo, sử dụng, bán, chào bán
+    để bán, thực hiện, nhập khẩu và chuyển giao bằng cách khác
+    Đóng góp hoặc Phiên bản cộng tác viên của nó.
+
+2.2. Ngày có hiệu lực
+
+Các giấy phép được cấp trong Mục 2.1 đối với bất kỳ Đóng góp nào
+có hiệu lực đối với mỗi Đóng góp vào ngày Người đóng góp lần đầu tiên
+phân phối Đóng góp đó.
+
+2.3. Hạn chế về phạm vi tài trợ
+
+Các giấy phép được cấp trong Phần 2 này là các quyền duy nhất được cấp theo
+Giấy phép này. Không có quyền hoặc giấy phép bổ sung nào sẽ được ngụ ý từ
+phân phối hoặc cấp phép Phần mềm được bao gồm theo Giấy phép này.
+Bất kể Mục 2.1(b) ở trên, không có giấy phép bằng sáng chế nào được cấp bởi một
+Người đóng góp:
+
+(a) đối với bất kỳ mã nào mà Người đóng góp đã xóa khỏi Phần mềm được bao gồm;
+    hoặc
+
+(b) đối với các vi phạm gây ra bởi: (i) Của bạn và của bất kỳ bên thứ ba nào khác
+    sửa đổi của Phần mềm được bao gồm hoặc (ii) sự kết hợp của phần mềm đó
+    Đóng góp với phần mềm khác (ngoại trừ là một phần của Contributor của nó)
+    Phiên bản); hoặc
+
+(c) theo Khiếu nại Bằng sáng chế bị Phần mềm được bảo hành vi phạm trong trường hợp không có
+    Những đóng góp của nó.
+
+Giấy phép này không cấp bất kỳ quyền nào đối với nhãn hiệu, nhãn hiệu dịch vụ,
+hoặc logo của bất kỳ Người đóng góp nào (trừ khi cần thiết để tuân thủ
+các yêu cầu về thông báo ở Mục 3.4).
+
+2.4. Giấy phép tiếp theo
+
+Không có Người đóng góp nào thực hiện các khoản tài trợ bổ sung do Bạn lựa chọn
+phân phối Phần mềm được bảo hành theo phiên bản tiếp theo của phiên bản này
+Giấy phép (xem Phần 10.2) hoặc theo các điều khoản của Giấy phép Thứ cấp (nếu
+được phép theo các điều khoản của Mục 3.3).
+
+2.5. đại diện
+
+Mỗi Cộng tác viên thể hiện rằng Cộng tác viên tin rằng
+Đóng góp là (các) sáng tạo ban đầu của nó hoặc nó có đủ quyền
+để cấp các quyền đối với Đóng góp của mình được chuyển tải bằng Giấy phép này.
+
+2.6. Sử dụng hợp lý
+
+Giấy phép này không nhằm mục đích hạn chế bất kỳ quyền nào mà Bạn có theo
+học thuyết bản quyền hiện hành về sử dụng hợp pháp, xử lý hợp lý hoặc các học thuyết khác
+tương đương.
+
+2.7. Điều kiện
+
+Mục 3.1, 3.2, 3.3, 3.4 là điều kiện của giấy phép được cấp
+trong Phần 2.1.
+
+3. Trách nhiệm
+-------------------
+
+3.1. Phân phối biểu mẫu nguồn
+
+Tất cả việc phân phối Phần mềm được bao gồm ở dạng Mã nguồn, bao gồm mọi
+Các sửa đổi mà Bạn tạo hoặc mà Bạn đóng góp phải tuân theo
+các điều khoản của Giấy phép này. Bạn phải thông báo cho người nhận rằng Nguồn
+Mẫu mã của Phần mềm được bao gồm được điều chỉnh bởi các điều khoản của
+Giấy phép và cách họ có thể nhận được bản sao của Giấy phép này. Bạn có thể không
+cố gắng thay đổi hoặc hạn chế quyền của người nhận trong Mã nguồn
+Hình thức.
+
+3.2. Phân phối biểu mẫu thực thi
+
+Nếu Bạn phân phối Phần mềm được bao gồm ở dạng Có thể thực thi thì:
+
+(a) Phần mềm được bao gồm đó cũng phải được cung cấp trong Mã nguồn
+    Biểu mẫu, như được mô tả trong Phần 3.1, và Bạn phải thông báo cho người nhận về
+    Biểu mẫu thực thi cách họ có thể lấy bản sao Mã nguồn đó
+    Hình thành bằng các phương tiện hợp lý một cách kịp thời, với mức phí không quá
+    hơn chi phí phân phối tới người nhận; Và
+
+(b) Bạn có thể phân phối Mẫu thực thi đó theo các điều khoản của thỏa thuận này
+    Cấp phép hoặc cấp phép lại cho nó theo các điều khoản khác nhau, với điều kiện là
+    giấy phép cho Biểu mẫu thực thi không cố gắng hạn chế hoặc thay đổi
+    quyền của người nhận trong Biểu mẫu mã nguồn theo Giấy phép này.
+
+3.3. Phân phối một công việc lớn hơn
+
+Bạn có thể tạo và phân phối Tác phẩm lớn hơn theo các điều kiện mà Bạn lựa chọn,
+với điều kiện là Bạn cũng tuân thủ các yêu cầu của Giấy phép này đối với
+Phần mềm được bảo hiểm. Nếu Công việc lớn hơn là sự kết hợp của Bao phủ
+Phần mềm có tác phẩm được quản lý bởi một hoặc nhiều Giấy phép phụ và
+Phần mềm được bao gồm không tương thích với Giấy phép phụ, điều này
+Giấy phép cho phép Bạn phân phối thêm Phần mềm được bảo hiểm đó
+theo các điều khoản của (các) Giấy phép Thứ cấp đó, để người nhận
+Công việc lớn hơn có thể, theo lựa chọn của họ, phân phối thêm Nội dung được bảo hiểm
+Phần mềm theo các điều khoản của Giấy phép này hoặc Giấy phép thứ cấp đó
+(Các) giấy phép.
+
+3.4. Thông báo
+
+Bạn không được xóa hoặc thay đổi nội dung của bất kỳ thông báo giấy phép nào
+(bao gồm thông báo bản quyền, thông báo bằng sáng chế, từ chối bảo hành,
+hoặc giới hạn trách nhiệm pháp lý) có trong Mẫu mã nguồn của
+Phần mềm được bao gồm, ngoại trừ việc Bạn có thể thay đổi bất kỳ thông báo cấp phép nào thành
+mức độ cần thiết để khắc phục những sai sót thực tế đã biết.
+
+3.5. Áp dụng các điều khoản bổ sung
+
+Bạn có thể chọn cung cấp và tính phí bảo hành, hỗ trợ,
+nghĩa vụ bồi thường hoặc trách nhiệm pháp lý đối với một hoặc nhiều người nhận Bảo hiểm
+Phần mềm. Tuy nhiên, Bạn chỉ có thể làm như vậy nhân danh chính Bạn chứ không phải nhân danh
+thay mặt cho bất kỳ Người đóng góp nào. Bạn phải nói rõ ràng rằng bất kỳ
+nghĩa vụ bảo hành, hỗ trợ, bồi thường hoặc trách nhiệm pháp lý đó được cung cấp bởi
+Chỉ riêng bạn và theo đây, Bạn đồng ý bồi thường cho mọi Người đóng góp cho bất kỳ
+trách nhiệm pháp lý mà Người đóng góp đó phải chịu do bảo hành, hỗ trợ,
+điều khoản bồi thường hoặc trách nhiệm pháp lý mà bạn đưa ra. Bạn có thể bao gồm thêm
+từ chối trách nhiệm bảo hành và giới hạn trách nhiệm pháp lý cụ thể đối với bất kỳ
+quyền hạn.
+
+4. Không có khả năng tuân thủ do quy chế hoặc quy định
+---------------------------------------------------
+
+Nếu Bạn không thể tuân thủ bất kỳ điều khoản nào trong tài liệu này
+Giấy phép đối với một số hoặc tất cả Phần mềm được bao gồm do
+đạo luật, lệnh tư pháp hoặc quy định thì Bạn phải: (a) tuân thủ
+các điều khoản của Giấy phép này ở mức tối đa có thể; và B)
+mô tả những hạn chế và mã mà chúng ảnh hưởng. Sự mô tả như vậy phải
+được đặt trong một tệp văn bản đi kèm với tất cả các bản phân phối của Covered
+Phần mềm theo Giấy phép này. Ngoại trừ trong phạm vi bị pháp luật cấm
+hoặc quy định, mô tả đó phải đủ chi tiết để
+người nhận có kỹ năng thông thường để có thể hiểu được nó.
+
+5. Chấm dứt
+--------------
+
+5.1. Các quyền được cấp theo Giấy phép này sẽ tự động chấm dứt
+nếu Bạn không tuân thủ bất kỳ điều khoản nào của nó. Tuy nhiên, nếu bạn trở thành
+tuân thủ thì các quyền được cấp theo Giấy phép này từ một
+Người đóng góp được phục hồi (a) tạm thời, trừ khi và cho đến khi
+Người đóng góp chấm dứt các khoản trợ cấp của Bạn một cách rõ ràng và cuối cùng và (b) theo
+cơ sở liên tục, nếu Người đóng góp đó không thông báo cho Bạn về
+không tuân thủ bằng một số biện pháp hợp lý trước 60 ngày sau khi Bạn có
+trở lại tuân thủ. Hơn nữa, khoản tài trợ của bạn từ một
+Người đóng góp được khôi phục liên tục nếu Người đóng góp đó
+thông báo cho Bạn về việc không tuân thủ bằng một số phương tiện hợp lý, đây là
+lần đầu tiên Bạn nhận được thông báo về việc không tuân thủ Giấy phép này
+từ Người đóng góp đó và Bạn trở nên tuân thủ trước 30 ngày sau
+Việc bạn nhận được thông báo.
+
+5.2. Nếu Bạn bắt đầu kiện tụng chống lại bất kỳ tổ chức nào bằng cách khẳng định quyền sở hữu bằng sáng chế
+khiếu nại vi phạm (không bao gồm các hành động phán quyết tuyên bố,
+khiếu nại phản đối và khiếu nại chéo) cáo buộc rằng Phiên bản của người đóng góp
+trực tiếp hoặc gián tiếp vi phạm bất kỳ bằng sáng chế nào thì các quyền được cấp cho
+Bạn bởi bất kỳ và tất cả những người đóng góp cho Phần mềm được bao gồm trong Mục
+2.1 của Giấy phép này sẽ chấm dứt.
+
+5.3. Trong trường hợp chấm dứt theo Mục 5.1 hoặc 5.2 ở trên, tất cả
+thỏa thuận cấp phép người dùng cuối (không bao gồm nhà phân phối và đại lý)
+đã được Bạn hoặc nhà phân phối của Bạn cấp hợp lệ theo Giấy phép này
+trước khi chấm dứt sẽ tồn tại khi chấm dứt.
+
+************************************************************************
+*                                                                      *
+* 6. Từ chối trách nhiệm bảo hành *
+*  -------------------------                                           *
+*                                                                      *
+* Phần mềm được bao gồm được cung cấp theo Giấy phép này trên "nguyên trạng" *
+* có cơ sở, không có bảo đảm dưới bất kỳ hình thức nào, được thể hiện, ngụ ý hoặc *
+* theo luật định, bao gồm nhưng không giới hạn, các bảo đảm rằng *
+* Phần mềm được bảo hiểm không có lỗi, có thể bán được, phù hợp với *
+* mục đích cụ thể hoặc không vi phạm. Toàn bộ rủi ro đối với *
+* chất lượng và hiệu suất của Phần mềm được bảo hiểm thuộc về Bạn. *
+* Nếu bất kỳ Phần mềm được bao gồm nào tỏ ra bị lỗi ở bất kỳ khía cạnh nào, Bạn *
+* (không phải bất kỳ Cộng tác viên nào) chịu chi phí cho bất kỳ dịch vụ cần thiết nào, *
+* sửa chữa, hoặc sửa chữa. Tuyên bố từ chối trách nhiệm bảo hành này cấu thành một *
+* phần thiết yếu của Giấy phép này. Việc sử dụng bất kỳ Phần mềm được bao gồm nào là *
+* được ủy quyền theo Giấy phép này ngoại trừ theo tuyên bố từ chối trách nhiệm này. *
+*                                                                      *
+************************************************************************
+
+************************************************************************
+*                                                                      *
+* 7. Giới hạn trách nhiệm pháp lý *
+*  --------------------------                                          *
+*                                                                      *
+* Trong mọi trường hợp và không theo lý thuyết pháp lý nào, dù là tra tấn *
+* (bao gồm cả sơ suất), hợp đồng hoặc các hình thức khác sẽ có bất kỳ *
+* Người đóng góp hoặc bất kỳ ai phân phối Phần mềm được bao gồm dưới dạng *
+* được cho phép ở trên, chịu trách nhiệm với Bạn về mọi hành vi trực tiếp, gián tiếp, *
+* thiệt hại đặc biệt, ngẫu nhiên hoặc do hậu quả của bất kỳ nhân vật nào *
+* bao gồm, nhưng không giới hạn, thiệt hại do mất lợi nhuận, mất mát *
+* thiện chí, ngừng việc, lỗi hoặc trục trặc máy tính, hoặc bất kỳ *
+* và tất cả các thiệt hại hoặc tổn thất thương mại khác, ngay cả khi bên đó *
+* sẽ được thông báo về khả năng xảy ra những thiệt hại đó. Cái này *
+* giới hạn trách nhiệm pháp lý sẽ không áp dụng đối với trách nhiệm pháp lý về tử vong hoặc *
+* thương tích cá nhân do sự sơ suất của bên đó đối với *
+* phạm vi pháp luật hiện hành cấm giới hạn đó. Một số *
+* khu vực pháp lý không cho phép loại trừ hoặc giới hạn *
+* thiệt hại ngẫu nhiên hoặc do hậu quả, do đó loại trừ này và *
+* giới hạn có thể không áp dụng cho Bạn. *
+*                                                                      *
+************************************************************************
+
+8. Kiện tụng
+-------------
+
+Bất kỳ vụ kiện tụng nào liên quan đến Giấy phép này chỉ có thể được đưa ra trong
+tòa án của khu vực có thẩm quyền nơi bị đơn duy trì quyền lợi chính của mình
+địa điểm kinh doanh và các vụ kiện tụng như vậy sẽ được điều chỉnh bởi luật pháp của nước đó
+quyền tài phán mà không cần tham chiếu đến các điều khoản xung đột pháp luật của nó.
+Không có nội dung nào trong Phần này ngăn cản khả năng của một bên đưa ra
+yêu cầu chéo hoặc yêu cầu phản tố.
+
+9. Linh tinh
+----------------
+
+Giấy phép này thể hiện sự thỏa thuận hoàn chỉnh liên quan đến chủ đề
+vấn đề này. Nếu bất kỳ điều khoản nào của Giấy phép này được coi là
+không thể thi hành được thì điều khoản đó sẽ chỉ được sửa đổi trong phạm vi
+cần thiết để làm cho nó có hiệu lực thi hành. Bất kỳ luật hoặc quy định nào quy định
+rằng ngôn ngữ của hợp đồng sẽ được hiểu theo cách của người soạn thảo
+sẽ không được sử dụng để hiểu Giấy phép này chống lại Người đóng góp.
+
+10. Phiên bản của Giấy phép
+---------------------------
+
+10.1. Phiên bản mới
+
+Mozilla Foundation là người quản lý giấy phép. Trừ khi được quy định trong Phần
+10.3, không ai khác ngoài người quản lý giấy phép có quyền sửa đổi hoặc
+xuất bản các phiên bản mới của Giấy phép này. Mỗi phiên bản sẽ được cấp một
+số phiên bản phân biệt.
+
+10.2. Tác dụng của phiên bản mới
+
+Bạn có thể phân phối Phần mềm được bao gồm theo các điều khoản của phiên bản
+của Giấy phép mà ban đầu Bạn nhận được Phần mềm được bao gồm,
+hoặc theo các điều khoản của bất kỳ phiên bản tiếp theo nào được giấy phép xuất bản
+người quản lý.
+
+10.3. Phiên bản sửa đổi
+
+Nếu bạn tạo phần mềm không chịu sự điều chỉnh của Giấy phép này và bạn muốn
+tạo giấy phép mới cho phần mềm đó, bạn có thể tạo và sử dụng giấy phép
+phiên bản sửa đổi của Giấy phép này nếu bạn đổi tên giấy phép và xóa
+bất kỳ tham chiếu nào đến tên của người quản lý giấy phép (ngoại trừ lưu ý rằng
+giấy phép sửa đổi đó khác với Giấy phép này).
+
+10.4. Mẫu mã nguồn phân phối không tương thích với thứ cấp
+Giấy phép
+
+Nếu bạn chọn phân phối Biểu mẫu mã nguồn không tương thích với
+Giấy phép thứ cấp theo các điều khoản của phiên bản Giấy phép này,
+phải đính kèm thông báo được mô tả trong Phụ lục B của Giấy phép này.
+
+Phụ lục A - Thông báo giấy phép biểu mẫu mã nguồn
+-------------------------------------------
+
+  Biểu mẫu mã nguồn này tuân theo các điều khoản của Mozilla Public
+  Giấy phép, v. 2.0. Nếu một bản sao của MPL không được phân phối cùng với
+  tệp, Bạn có thể lấy một tệp tại http://mozilla.org/MPL/2.0/.
+
+Nếu không thể hoặc không mong muốn đưa thông báo vào một mục cụ thể
+thì Bạn có thể đưa thông báo vào một vị trí (chẳng hạn như GIẤY PHÉP
+tập tin trong một thư mục có liên quan) nơi người nhận có thể sẽ tìm
+cho một thông báo như vậy.
+
+Bạn có thể thêm các thông báo chính xác bổ sung về quyền sở hữu bản quyền.
+
+Phụ lục B - Thông báo "Không tương thích với giấy phép phụ"
+---------------------------------------------------------
+
+  Biểu mẫu mã nguồn này "Không tương thích với giấy phép phụ", vì
+  được xác định bởi Giấy phép Công cộng Mozilla, v. 2.0.
