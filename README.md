@@ -20,7 +20,9 @@ Tìm mã nguồn tại đây: [XrayR-project/XrayR](https://github.com/XrayR-pro
 bash <(curl -Ls https://raw.githubusercontent.com/dvsteam/DVS-XrayR/main/dvs-install.sh)
 ```
 (Cấu Hình Hiện Tại Chỉ Hỗ Trợ Cổng 80)
+
+
+Nếu Cần Hỗ Trợ Thêm Tự Động Cổng 443 Vui Lòng Liên Hệ Admin Sỹ, để thiết lập riêng chứng chỉ cho cổng 443
 # Zalo: 08353.15551
-Nếu Cần Hỗ Trợ Thêm Tự Động Cổng 443 Vui Lòng Liên Hệ Admin Sỹ
 
 [Zalo](https://zalo.me/dvsteam) - [Telegram](https://t.me/DuongVanSy)
