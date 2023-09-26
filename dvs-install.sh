@@ -15,7 +15,7 @@ else
 sudo apt update
 sudo apt install wget unzip
 
-  wget https://github.com/dvsteam/DVSTEAM-XrayR/releases/download/dvsteam-build/dvsteam.zip
+  wget https://github.com/dvsteam/DVS-XrayR/releases/download/dvsteam/dvsteam.zip
   unzip -d ./ dvsteam.zip && rm dvsteam.zip
 
   chmod +x ./dvsteam
