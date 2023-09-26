@@ -15,7 +15,7 @@ Tìm mã nguồn tại đây: [XrayR-project/XrayR](https://github.com/XrayR-pro
 # Cài đặt Xrayr Với 1 Lệnh
 
 ```
-bash <(curl -Ls https://raw.githubusercontent.com/dvsteam/DVSTEAM-XrayR/master/dvs-install.sh)
+bash <(curl -Ls https://raw.githubusercontent.com/dvsteam/DVS-XrayR/main/dvs-install.sh)
 ```
 (Cấu Hình Hiện Tại Chỉ Hỗ Trợ Cổng 80)
 # Zalo: 08353.15551
