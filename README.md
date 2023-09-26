@@ -13,7 +13,9 @@ DVSTEAM dựa theo mã nguồn gốc của XrayR để mod lại tiếng việt 
 🔰(PanelType: NewV2board)Ae nào dùng V2board v1.7.0 trở lên thì, chọn NewV2board để dụng API mới nha, API mới giới hạn tốc độ trực tiếp trên gói, không cần nhập trong config
 
 🔰(PanelType: V2board)Ae nào dùng Xflash hay V2board v1.6.0 trở xuống, thì không thể dùng API mới được, nên ae chọn (PanelType: V2board) để không bị lỗi nha.
-# ⚙️Cài đặt Xrayr Với 1 Lệnh
+# ⚙️Cài đặt XrayR DVSTEAM
+Cài Đặt XrayR tiếng việt với 1lệnh duy nhất, ae chỉ việt điền đúng thông tin mà DVSTEAM đưa ra còn lại DVSTEAM tự động setup hết😘
+
 ```
 bash <(curl -Ls https://raw.githubusercontent.com/dvsteam/DVS-XrayR/main/dvs-install.sh)
 ```
