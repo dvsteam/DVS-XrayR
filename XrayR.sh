@@ -110,7 +110,7 @@ update() {
 #    fi
     bash <(curl -Ls https://raw.githubusercontent.com/XrayR-project/XrayR-release/master/install.sh) $version
     if [[ $? == 0 ]]; then
-        echo -e "${green}Bản cập nhật hoàn tất và XrayR đã được tự động khởi động lại, sử dụng XrayR log để xem nhật ký chạy${plain}"
+        echo -e "${green}Bản cập nhật hoàn tất và XrayR đã được tự động khởi động lại, sử dụng “XrayR log” để xem nhật ký chạy${plain}"
         exit
     fi
 
@@ -130,7 +130,7 @@ config() {
             ;;
         1)
             echo -e "Bạn có xem nhật ký khi phát hiện bạn không khởi động XrayR hoặc XrayR tự động khởi động lại không? [Y/n]" && echo
-            read -e -p "(Mặc định: y):" yn
+            read -e -p "(Mặc định là: y):" yn
             [[ -z ${yn} ]] && yn="y"
             if [[ ${yn} == [Yy] ]]; then
                show_log
@@ -170,15 +170,15 @@ start() {
     check_status
     if [[ $? == 0 ]]; then
         echo ""
-        echo -e "${green}XrayR đã được chạy, không cần khởi động lại, nếu bạn cần khởi động lại, vui lòng chọn khởi động lại ${plain}"
+        echo -e "${green}XrayR đã được chạy, không cần khởi động nữa, nếu bạn cần khởi động lại, vui lòng chọn khởi động lại ${plain}"
     else
         systemctl start XrayR
         sleep 2
         check_status
         if [[ $? == 0 ]]; then
-            echo -e "${green}XrayR bắt đầu thành công, vui lòng sử dụng XrayR log để xem nhật ký chạy ${plain}"
+            echo -e "${green}XrayR khởi chạy thành công, vui lòng sử dụng ″XrayR log‶ để xem nhật ký chạy ${plain}"
         else
-            echo -e "${red}XrayR khởi động không thành công, vui lòng sử dụng nhật ký XrayR sau để xem thông tin nhật ký ${plain}"
+            echo -e "${red}XrayR khởi chạy thất bại, vui lòng sử dụng ‟XrayR log” để xem tiến trình ${plain}"
         fi
     fi
 
@@ -194,7 +194,7 @@ stop() {
     if [[ $? == 1 ]]; then
         echo -e "${green}XrayR Dừng lại thành công${plain}"
     else
-        echo -e "${red}XrayR dừng không thành công, có lẽ do thời gian dừng vượt quá hai giây, vui lòng kiểm tra thông báo nhật ký sau ${plain}"
+        echo -e "${red}XrayR dừng thất bại, vui lòng kiểm tra thông báo log ${plain}"
     fi
 
     if [[ $# == 0 ]]; then
@@ -207,9 +207,10 @@ restart() {
     sleep 2
     check_status
     if [[ $? == 0 ]]; then
-        echo -e "${green}XrayR khởi động thành công, [XrayR đang chạy] để kiểm tra gõ: XrayR log để xem tiến trình chạy ${plain}"
+        echo -e "${green}XrayR Khởi Động Thành Công${plain}"
+        echo -e "${green}[XrayR đang chạy] để kiểm tra tiến trình gõ: ‟XrayR log” ${plain}"
     else
-        echo -e "${red}Lỗi: XrayR khởi động không thành công, Gõ: xrayr log, để xem tình trạng ${plain}"
+        echo -e "${red}Lỗi: XrayR khởi động thất bại, Gõ: ‟xrayr log” để xem tình trạng ${plain}"
     fi
     if [[ $# == 0 ]]; then
         before_show_menu
@@ -307,7 +308,7 @@ check_uninstall() {
     check_status
     if [[ $? != 2 ]]; then
         echo ""
-        echo -e "${red}XrayR đã được cài đặt, vui lòng không cài đặt nhiều lần${plain}"
+        echo -e "${red}XrayR đã được cài đặt, vui lòng không cài đặt lại nhiều lần${plain}"
         if [[ $# == 0 ]]; then
             before_show_menu
         fi
@@ -335,24 +336,24 @@ show_status() {
     check_status
     case $? in
         0)
-            echo -e "Trạng thái XrayR: ${green} đã chạy ${plain}"
+            echo -e "Trạng thái XrayR: ${green} Đang chạy ${plain}"
             show_enable_status
             ;;
         1)
-            echo -e "Trạng thái XrayR: ${yellow} không chạy ${plain}"
+            echo -e "Trạng thái XrayR: ${yellow} Không chạy ${plain}"
             show_enable_status
             ;;
         2)
-            echo -e "Trạng thái XrayR: ${red} chưa cài đặt ${plain}"
+            echo -e "Trạng thái XrayR: ${red} Chưa cài đặt ${plain}"
     esac
 }
 
 show_enable_status() {
     check_enabled
     if [[ $? == 0 ]]; then
-        echo -e "Có khởi động tự động sau khi bật nguồn hay không: ${green}CÓ${plain}"
+        echo -e "Có khởi động lại tự động, sau khi bật nguồn hay không: ${green}CÓ${plain}"
     else
-        echo -e "Có khởi động tự động sau khi bật nguồn hay không: ${red}KHÔNG${plain}"
+        echo -e "Có khởi động lại tự động, sau khi bật nguồn hay không: ${red}KHÔNG${plain}"
     fi
 }
 
@@ -398,7 +399,7 @@ show_menu() {
   ${green}5.${plain} Dừng XrayR
   ${green}6.${plain} Khởi động lại XrayR
   ${green}7.${plain} Xem trạng thái XrayR
-  ${green}8.${plain} Xem nhật ký XrayR
+  ${green}8.${plain} Xem nhật ký log XrayR
 ————————————————
   ${green}9.${plain} Đặt XrayR tự động khởi động khi khởi động
  ${green}10.${plain} Hủy tự động khởi động XrayR khi khởi động
