@@ -8,9 +8,10 @@ DVSTEAM dựa theo mã nguồn gốc của XrayR để mod lại tiếng việt 
 
 Tìm mã nguồn tại đây: [XrayR-project/XrayR](https://github.com/XrayR-project/XrayR)
 
-# Hướng dẫn sử dụng chi tiết
+# Hình ảnh mẫu
 
-[Hướng dẫn](https://t.me/DuongVanSy)
+![image](https://github.com/dvsteam/DVS-XrayR/assets/91702958/78d3fd48-04c6-4713-ab39-8baae5d92c92)
+
 
 # Cài đặt Xrayr Với 1 Lệnh
 
