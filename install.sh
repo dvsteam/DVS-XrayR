@@ -42,7 +42,7 @@ else
     echo -e "${red}Không phát hiện được kiến ​​trúc, sử dụng kiến ​​trúc mặc định: ${arch}${plain}"
 fi
 
-echo "Ngành kiến ​​​​trúc: ${arch}"
+echo "Kiến ​​​​trúc: ${arch}"
 
 if [ "$(getconf WORD_BIT)" != '32' ] && [ "$(getconf LONG_BIT)" != '64' ] ; then
     echo "Phần mềm này không hỗ trợ hệ thống 32 bit (x86), vui lòng sử dụng hệ thống 64 bit (x86_64), nếu phát hiện không chính xác, vui lòng liên hệ với tác giả"
