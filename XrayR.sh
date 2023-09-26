@@ -8,7 +8,7 @@ plain='\033[0m'
 version="v1.0.0"
 
 # check root
-[[ $EUID -ne 0 ]] && echo -e "${red}错误: ${plain} Tập lệnh này phải được chạy bằng cách sử dụng người dùng root!\n" && exit 1
+[[ $EUID -ne 0 ]] && echo -e "${red}Lỗi: ${plain} Tập lệnh này phải được chạy bằng cách sử dụng người dùng root!\n" && exit 1
 
 # check os
 if [[ -f /etc/redhat-release ]]; then
@@ -55,7 +55,7 @@ fi
 
 confirm() {
     if [[ $# > 1 ]]; then
-        echo && read -p "$1 [默认$2]: " temp
+        echo && read -p "$1 [mặc định$2]: " temp
         if [[ x"${temp}" == x"" ]]; then
             temp=$2
         fi
@@ -178,7 +178,7 @@ start() {
         if [[ $? == 0 ]]; then
             echo -e "${green}XrayR bắt đầu thành công, vui lòng sử dụng XrayR log để xem nhật ký chạy ${plain}"
         else
-            echo -e "${red}XrayR có thể không khởi động được, vui lòng sử dụng nhật ký XrayR sau để xem thông tin nhật ký ${plain}"
+            echo -e "${red}XrayR khởi động không thành công, vui lòng sử dụng nhật ký XrayR sau để xem thông tin nhật ký ${plain}"
         fi
     fi
 
@@ -207,9 +207,9 @@ restart() {
     sleep 2
     check_status
     if [[ $? == 0 ]]; then
-        echo -e "${green}XrayR khởi động lại thành công, vui lòng sử dụng XrayR log để xem nhật ký chạy ${plain}"
+        echo -e "${green}XrayR khởi động thành công, [XrayR đang chạy] để kiểm tra gõ: XrayR log để xem tiến trình chạy ${plain}"
     else
-        echo -e "${red}XrayR có thể không khởi động được, vui lòng sử dụng nhật ký XrayR sau để xem thông tin nhật ký ${plain}"
+        echo -e "${red}Lỗi: XrayR khởi động không thành công, Gõ: xrayr log, để xem tình trạng ${plain}"
     fi
     if [[ $# == 0 ]]; then
         before_show_menu
