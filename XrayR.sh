@@ -386,8 +386,8 @@ show_usage() {
 
 show_menu() {
     echo -e "
-  ${green}XrayR Kịch bản quản lý phụ trợ，${plain}${red}không hoạt động với docker${plain}
----> Dự án được việt hóa bới DVSTEAM.NET (Sỹ)<---
+  ${green}XrayR Menu tiện ích${plain}
+  ${red}---> Địa chỉ dự án DVSTEAM https://github.com/dvsteam/DVS-XrayR <---${plain}
   ${green}0.${plain} Thay đổi cài đặt
 ————————————————
   ${green}1.${plain} Cài đặt XrayR
