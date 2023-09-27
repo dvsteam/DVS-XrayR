@@ -1,24 +1,17 @@
 #!/bin/bash
 
+DVSxrayr="https://github.com/dvsteam/DVS-XrayR/releases/download/dvsteam/dvsteam.zip"
+DVSfile="dvsteam.zip"
+
 # Kiểm tra quyền root
-if [ "$EUID" -ne 0 ]; then
-echo "Vui lòng chạy dưới dạng root -->Gõ: sudo -i <-- Để truy cập root"
-exit
+[ "$(id -u)" -ne 0 ] && echo "DVSTEAM này cần quyền root để chạy. Vui lòng chạy dưới dạng root -->Gõ: sudo -i <-- Để truy cập root" && exit 1
+
+for cmd in wget unzip; do
+    command -v $cmd &> /dev/null || { echo "Cài đặt $cmd..."; sudo apt update; sudo apt install $cmd -y; }
+done
+
+if [ ! -f "./dvsteam" ]; then
+    wget "$DVSxrayr" && unzip -d ./ "$DVSfile" && rm "$DVSfile"
 fi
 
-if [ -f "./dvsteam" ]; then
-
-chmod +x ./dvsteam
-  ./dvsteam 
-
-else
-sudo apt update
-sudo apt install wget unzip
-
-  wget https://github.com/dvsteam/DVS-XrayR/releases/download/dvsteam/dvsteam.zip
-  unzip -d ./ dvsteam.zip && rm dvsteam.zip
-
-  chmod +x ./dvsteam
-  ./dvsteam
-
-fi
+[ -f "./dvsteam" ] && { chmod +x ./dvsteam; ./dvsteam; } || echo "Lỗi khi chạy dvsteam"
