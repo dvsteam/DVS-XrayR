@@ -26,7 +26,8 @@ Nếu Cần Hỗ Trợ Cổng 443,
 1vps server sẽ có 2cổng 80 và 443, Vui Lòng Liên Hệ Admin Sỹ, để thiết lập riêng
 # Zalo: 08353.15551
 
-[Zalo](https://zalo.me/dvsteam) - [Telegram](https://t.me/DuongVanSy)
+🔰[Zalo](https://zalo.me/dvsteam) <----> 🔰[Telegram](https://t.me/DuongVanSy)
+
 
 
 Tìm mã nguồn gốc XrayR tại đây: [XrayR-project/XrayR](https://github.com/XrayR-project/XrayR)
