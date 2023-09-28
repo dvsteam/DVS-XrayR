@@ -24,7 +24,16 @@ bash <(curl -Ls https://raw.githubusercontent.com/dvsteam/DVS-XrayR/main/dvs-ins
 
 Nếu Cần Hỗ Trợ Cổng 443,
 1vps server sẽ có 2cổng 80 và 443, Vui Lòng Liên Hệ Admin Sỹ, để thiết lập riêng
-# Zalo: 08353.15551
+
+### [Zalo: 08353.155551](https://zalo.me/dvsteam)
+
+
+### [Telegram](https://t.me/DuongVanSy)
+ 
+
+
+
+
 
 🔰[Zalo](https://zalo.me/dvsteam) <----> 🔰[Telegram](https://t.me/DuongVanSy)
 
