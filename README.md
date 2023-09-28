@@ -22,8 +22,7 @@ bash <(curl -Ls https://raw.githubusercontent.com/dvsteam/DVS-XrayR/main/dvs-ins
 (Cấu Hình Hiện Tại Chỉ Hỗ Trợ Cổng 80)
 
 
-Nếu Cần Hỗ Trợ Cổng 443,
-1vps server sẽ có 2cổng 80 và 443, Vui Lòng Liên Hệ Admin Sỹ, để thiết lập riêng
+Nếu Cần Hỗ Trợ Cổng 443, và muốn dùng 1vps server 2cổng 80 và 443, thì Liên Hệ Admin Sỹ, để thiết lập riêng nha
 
 ### [🔰Zalo: 08353.15551](https://zalo.me/dvsteam)
 ### [🔰Telegram](https://t.me/DuongVanSy)
