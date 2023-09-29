@@ -30,3 +30,10 @@ Nếu Cần Hỗ Trợ Cổng 443, và muốn dùng 1vps server 2cổng 80 và 4
 
 
 Tìm mã nguồn gốc XrayR tại đây: [XrayR-project/XrayR](https://github.com/XrayR-project/XrayR)
+
+## Donate
+
+Ủng hộ DVSTEAM:
+
+MoMo: 08353.15551
+MB Bank: 888880.5678.9999
