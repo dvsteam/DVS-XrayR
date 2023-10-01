@@ -18,6 +18,8 @@ Nếu Cần Hỗ Trợ Cổng 443 Trojan & VMess, và muốn dùng 1vps chạy 2
 
 # Hình ảnh demo Port 80 VMess
 
+Mỗi 1 Thiết Bị là có 1 IP Nên XrayR Giới Hạn IP Theo Thiết Bị Đó Nha.
+
 ![image](https://github.com/dvsteam/DVS-XrayR/assets/91702958/78d3fd48-04c6-4713-ab39-8baae5d92c92)
 
 🔰(PanelType: NewV2board)Ae nào dùng V2board v1.7.0 trở lên thì, chọn NewV2board để dụng API mới nha, API mới giới hạn tốc độ trực tiếp trên gói, không cần nhập trong config
