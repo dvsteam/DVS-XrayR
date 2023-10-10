@@ -109,7 +109,7 @@ install_XrayR() {
 	cd /usr/local/XrayR/
 
     if  [ $# == 0 ] ;then
-        last_version=$(curl -Ls "https://api.github.com/repos/XrayR-project/XrayR/releases/latest" | grep '"tag_name":' | sed -E 's/.*"([^"]+)".*/\1/')
+        last_version=v0.9.0
         if [[ ! -n "$last_version" ]]; then
             echo -e "${red}Không phát hiện được phiên bản XrayR. Có thể đã vượt quá giới hạn API Github. Vui lòng thử lại sau hoặc chỉ định phiên bản XrayR theo cách thủ công để cài đặt.${plain}"
             exit 1
