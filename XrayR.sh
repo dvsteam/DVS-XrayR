@@ -55,7 +55,7 @@ fi
 
 confirm() {
     if [[ $# > 1 ]]; then
-        echo && read -p "$1 [mặc định$2]: " temp
+        echo && read -p "$1 [mặc định $2]: " temp
         if [[ x"${temp}" == x"" ]]; then
             temp=$2
         fi
@@ -271,7 +271,7 @@ install_bbr() {
 }
 
 update_shell() {
-    wget -O /usr/bin/XrayR -N --no-check-certificate https://raw.githubusercontent.com/XrayR-project/XrayR-release/master/XrayR.sh
+    wget -O /usr/bin/XrayR -N --no-check-certificate https://raw.githubusercontent.com/dvsteam/DVS-XrayR/main/XrayR.sh
     if [[ $? != 0 ]]; then
         echo ""
         echo -e "${red}Tải xuống tập lệnh không thành công, vui lòng kiểm tra xem thiết bị có thể kết nối với Github không${plain}"
