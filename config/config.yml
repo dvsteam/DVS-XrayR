@@ -1,91 +1,91 @@
 Log:
-  Level: warning # Log level: none, error, warning, info, debug 
-  AccessPath: # /etc/XrayR/access.Log
-  ErrorPath: # /etc/XrayR/error.log
-DnsConfigPath: # /etc/XrayR/dns.json # Path to dns config, check https://xtls.github.io/config/dns.html for help
-RouteConfigPath: # /etc/XrayR/route.json # Path to route config, check https://xtls.github.io/config/routing.html for help
-InboundConfigPath: # /etc/XrayR/custom_inbound.json # Path to custom inbound config, check https://xtls.github.io/config/inbound.html for help
-OutboundConfigPath: # /etc/XrayR/custom_outbound.json # Path to custom outbound config, check https://xtls.github.io/config/outbound.html for help
+  Level: warning #Cấp độ nhật ký: Không có, lỗi, cảnh báo, thông tin, gỡ lỗi
+  AccessPath: #/etc/xrayr/access.log
+  ErrorPath: #/etc/xrayr/error.log
+DnsConfigPath: # /etc/XrayR/dns.json #Đường dẫn đến cấu hình DNS, kiểm tra https://xtls.github.io/config/dns.html để được trợ giúp
+RouteConfigPath: # /etc/XrayR/route.json #Đường dẫn đến cấu hình định tuyến, kiểm tra https://xtls.github.io/config/routing.html để được trợ giúp
+InboundConfigPath: # /etc/XrayR/custom_inbound.json #Đường dẫn đến cấu hình trong nước tùy chỉnh, kiểm tra https://xtls.github.io/config/inbound.html để được trợ giúp
+OutboundConfigPath: # /etc/XrayR/custom_outbound.json #Đường dẫn đến cấu hình bên ngoài tùy chỉnh, kiểm tra https://xtls.github.io/config/outbound.html để được trợ giúp
 ConnectionConfig:
-  Handshake: 4 # Handshake time limit, Second
-  ConnIdle: 30 # Connection idle time limit, Second
-  UplinkOnly: 2 # Time limit when the connection downstream is closed, Second
-  DownlinkOnly: 4 # Time limit when the connection is closed after the uplink is closed, Second
-  BufferSize: 64 # The internal cache size of each connection, kB
+  Handshake: 4 #Giới hạn thời gian bắt tay, thứ hai
+  ConnIdle: 30 #Kết nối giới hạn thời gian nhàn rỗi, thứ hai
+  UplinkOnly: 2 #Giới hạn thời gian khi kết nối hạ lưu được đóng lại, thứ hai
+  DownlinkOnly: 4 #Giới hạn thời gian khi kết nối được đóng sau khi kết thúc đường lên, thứ hai
+  BufferSize: 64 #Kích thước bộ nhớ cache bên trong của mỗi kết nối, KB
 Nodes:
   -
-    PanelType: "SSpanel" # Panel type: SSpanel, V2board, NewV2board, PMpanel, Proxypanel, V2RaySocks
+    PanelType: "SSpanel" #Loại bảng điều khiển: SSPANEL, V2Board, Newv2board, PMPanel, Proxypanel, V2Raysocks
     ApiConfig:
       ApiHost: "http://127.0.0.1:667"
       ApiKey: "123"
       NodeID: 41
-      NodeType: V2ray # Node type: V2ray, Shadowsocks, Trojan, Shadowsocks-Plugin
-      Timeout: 30 # Timeout for the api request
-      EnableVless: false # Enable Vless for V2ray Type
-      EnableXTLS: false # Enable XTLS for V2ray and Trojan
-      SpeedLimit: 0 # Mbps, Local settings will replace remote settings, 0 means disable
-      DeviceLimit: 0 # Local settings will replace remote settings, 0 means disable
-      RuleListPath: # /etc/XrayR/rulelist Path to local rulelist file
+      NodeType: V2ray #Loại nút: V2Ray, Shadowsocks, Trojan, Shadowsocks-Plugin
+      Timeout: 30 #Thời gian chờ cho yêu cầu API
+      EnableVless: false #Bật vless cho loại v2ray
+      EnableXTLS: false #Bật XTLS cho V2Ray và Trojan
+      SpeedLimit: 0 #MBPS, Cài đặt cục bộ sẽ thay thế Cài đặt từ xa, 0 có nghĩa là Tắt
+      DeviceLimit: 0 #Cài đặt cục bộ sẽ thay thế cài đặt từ xa, 0 có nghĩa là vô hiệu hóa
+      RuleListPath: #/etc/Xrayr/Rulelist Path đến tệp Rulelist cục bộ
     ControllerConfig:
-      ListenIP: 0.0.0.0 # IP address you want to listen
-      SendIP: 0.0.0.0 # IP address you want to send pacakage
-      UpdatePeriodic: 60 # Time to update the nodeinfo, how many sec.
-      EnableDNS: false # Use custom DNS config, Please ensure that you set the dns.json well
-      DNSType: AsIs # AsIs, UseIP, UseIPv4, UseIPv6, DNS strategy
-      EnableProxyProtocol: false # Only works for WebSocket and TCP
+      ListenIP: 0.0.0.0 #Địa chỉ IP bạn muốn nghe
+      SendIP: 0.0.0.0 #Địa chỉ IP bạn muốn gửi gói
+      UpdatePeriodic: 60 #Thời gian để cập nhật NodeInfo, bao nhiêu giây.
+      EnableDNS: false #Sử dụng cấu hình DNS tùy chỉnh, vui lòng đảm bảo rằng bạn đặt DNS.JSON tốt
+      DNSType: AsIs #ASIS, USEIP, UserIPV4, UserIPV6, DNS Strateg
+      EnableProxyProtocol: false #Chỉ hoạt động cho WebSocket và TCP
       AutoSpeedLimitConfig:
-        Limit: 0 # Warned speed. Set to 0 to disable AutoSpeedLimit (mbps)
-        WarnTimes: 0 # After (WarnTimes) consecutive warnings, the user will be limited. Set to 0 to punish overspeed user immediately.
-        LimitSpeed: 0 # The speedlimit of a limited user (unit: mbps)
-        LimitDuration: 0 # How many minutes will the limiting last (unit: minute)
+        Limit: 0 #Tốc độ cảnh báo.Được đặt thành 0 thành Tắt AutoSpeedLimit (MBPS)
+        WarnTimes: 0 #Sau (Warntimes) cảnh báo liên tiếp, người dùng sẽ bị hạn chế.Đặt thành 0 để trừng phạt người dùng quá mức ngay lập tức.
+        LimitSpeed: 0 #SpeedLimit của người dùng giới hạn (đơn vị: MBPS)
+        LimitDuration: 0 #Giới hạn sẽ bao nhiêu phút cuối cùng (đơn vị: phút)
       GlobalDeviceLimitConfig:
-        Enable: false # Enable the global device limit of a user
-        RedisAddr: 127.0.0.1:6379 # The redis server address
-        RedisPassword: YOUR PASSWORD # Redis password
-        RedisDB: 0 # Redis DB
-        Timeout: 5 # Timeout for redis request
-        Expiry: 60 # Expiry time (second)
-      EnableFallback: false # Only support for Trojan and Vless
-      FallBackConfigs:  # Support multiple fallbacks
+        Enable: false #Bật giới hạn thiết bị toàn cầu của người dùng
+        RedisAddr: 127.0.0.1:6379 #Địa chỉ máy chủ Redis
+        RedisPassword: YOUR PASSWORD #Mật khẩu Redis
+        RedisDB: 0 #Redis DB
+        Timeout: 5 #Thời gian chờ cho yêu cầu Redis
+        Expiry: 60 #Thời gian hết hạn (thứ hai)
+      EnableFallback: false #Chỉ hỗ trợ cho Trojan và Vless
+      FallBackConfigs:  #Hỗ trợ nhiều dự phòng
         -
-          SNI: # TLS SNI(Server Name Indication), Empty for any
-          Alpn: # Alpn, Empty for any
-          Path: # HTTP PATH, Empty for any
-          Dest: 80 # Required, Destination of fallback, check https://xtls.github.io/config/features/fallback.html for details.
-          ProxyProtocolVer: 0 # Send PROXY protocol version, 0 for dsable
+          SNI: #TLS SNI (chỉ định tên máy chủ), trống cho bất kỳ
+          Alpn: #Alpn, trống cho bất kỳ
+          Path: #Đường dẫn http, trống cho bất kỳ
+          Dest: 80 #Yêu cầu, điểm đến của dự phòng, kiểm tra https://xtls.github.io/config/features/fallback.html để biết chi tiết.
+          ProxyProtocolVer: 0 #Gửi phiên bản giao thức proxy, 0 cho dsable
       CertConfig:
-        CertMode: dns # Option about how to get certificate: none, file, http, tls, dns. Choose "none" will forcedly disable the tls config.
-        CertDomain: "node1.test.com" # Domain to cert
-        CertFile: /etc/XrayR/cert/node1.test.com.cert # Provided if the CertMode is file
+        CertMode: dns #Tùy chọn về cách nhận chứng chỉ: Không, Tệp, HTTP, TLS, DNS.Chọn "Không" sẽ buộc vô hiệu hóa cấu hình TLS.
+        CertDomain: "node1.test.com" #Miền để chứng nhận
+        CertFile: /etc/XrayR/cert/node1.test.com.cert #Được cung cấp nếu certmode là tệp
         KeyFile: /etc/XrayR/cert/node1.test.com.key
-        Provider: alidns # DNS cert provider, Get the full support list here: https://go-acme.github.io/lego/dns/
+        Provider: alidns #Nhà cung cấp chứng chỉ DNS, Nhận danh sách hỗ trợ đầy đủ tại đây: https://go-acme.github.io/lego/dns/
         Email: test@me.com
-        DNSEnv: # DNS ENV option used by DNS provider
+        DNSEnv: #Tùy chọn DNS Env được sử dụng bởi nhà cung cấp DNS
           ALICLOUD_ACCESS_KEY: aaa
           ALICLOUD_SECRET_KEY: bbb
-  # -
-  #   PanelType: "NewV2board" # Panel type: SSpanel, V2board, NewV2board, PMpanel, Proxypanel, V2RaySocks
-  #   ApiConfig:
-  #     ApiHost: "http://127.0.0.1:668"
-  #     ApiKey: "123"
-  #     NodeID: 4
-  #     NodeType: Shadowsocks # Node type: V2ray, Shadowsocks, Trojan
-  #     Timeout: 30 # Timeout for the api request
-  #     EnableVless: false # Enable Vless for V2ray Type
-  #     EnableXTLS: false # Enable XTLS for V2ray and Trojan
-  #     SpeedLimit: 0 # Mbps, Local settings will replace remote settings
-  #     DeviceLimit: 0 # Local settings will replace remote settings
-  #   ControllerConfig:
-  #     ListenIP: 0.0.0.0 # IP address you want to listen
-  #     UpdatePeriodic: 10 # Time to update the nodeinfo, how many sec.
-  #     EnableDNS: false # Use custom DNS config, Please ensure that you set the dns.json well
-  #     CertConfig:
-  #       CertMode: dns # Option about how to get certificate: none, file, http, dns
-  #       CertDomain: "node1.test.com" # Domain to cert
-  #       CertFile: /etc/XrayR/cert/node1.test.com.cert # Provided if the CertMode is file
-  #       KeyFile: /etc/XrayR/cert/node1.test.com.pem
-  #       Provider: alidns # DNS cert provider, Get the full support list here: https://go-acme.github.io/lego/dns/
-  #       Email: test@me.com
-  #       DNSEnv: # DNS ENV option used by DNS provider
-  #         ALICLOUD_ACCESS_KEY: aaa
-  #         ALICLOUD_SECRET_KEY: bbb
+   -
+     PanelType: "NewV2board" #Loại bảng điều khiển: SSPANEL, V2Board, Newv2board, PMPanel, Proxypanel, V2Raysocks
+     ApiConfig:
+       ApiHost: "http://127.0.0.1:668"
+       ApiKey: "123"
+       NodeID: 4
+       NodeType: Shadowsocks #Loại nút: V2Ray, Shadowsocks, Trojan
+       Timeout: 30 #Thời gian chờ cho yêu cầu API
+       EnableVless: false #Bật vless cho loại v2ray
+       EnableXTLS: false #Bật XTLS cho V2Ray và Trojan
+       SpeedLimit: 0 #MBPS, Cài đặt cục bộ sẽ thay thế cài đặt từ xa
+       DeviceLimit: 0 #Cài đặt cục bộ sẽ thay thế cài đặt từ xa
+     ControllerConfig:
+       ListenIP: 0.0.0.0 #Địa chỉ IP bạn muốn nghe
+       UpdatePeriodic: 10 #Thời gian để cập nhật NodeInfo, bao nhiêu giây.
+       EnableDNS: false #Sử dụng cấu hình DNS tùy chỉnh, vui lòng đảm bảo rằng bạn đặt DNS.JSON tốt
+       CertConfig:
+         CertMode: dns #Tùy chọn về cách nhận chứng chỉ: Không, Tệp, HTTP, DNS
+         CertDomain: "node1.test.com" #Miền để chứng nhận
+         CertFile: /etc/XrayR/cert/node1.test.com.cert #Được cung cấp nếu certmode là tệp
+         KeyFile: /etc/XrayR/cert/node1.test.com.pem
+         Provider: alidns #Nhà cung cấp chứng chỉ DNS, Nhận danh sách hỗ trợ đầy đủ tại đây: https://go-acme.github.io/lego/dns/
+         Email: test@me.com
+         DNSEnv: #Tùy chọn DNS Env được sử dụng bởi nhà cung cấp DNS
+           ALICLOUD_ACCESS_KEY: aaa
+           ALICLOUD_SECRET_KEY: bbb
