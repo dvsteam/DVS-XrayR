@@ -1,8 +1,8 @@
-# XRayR Tiếng Việt Tự Động Setup
+# XrayR Việt Hóa Tiếng Việt
 
 Khung phụ trợ Xray có thể dễ dàng hỗ trợ nhiều bảng.
 
-Khung back-end dựa trên Xray, hỗ trợ các giao thức V2ay, Trojan, Shadowsocks, dễ mở rộng và hỗ trợ docking nhiều bảng
+Khung back-end dựa trên Xray, hỗ trợ các giao thức V2ay(VMess), Trojan, dễ mở rộng và hỗ trợ docking nhiều bảng
 
 DVSTEAM dựa theo mã nguồn gốc của XrayR để mod lại tiếng việt cho ae dễ thao tác, và dễ thực hiện hơn
 ## ⚙️Cài đặt XrayR DVSTEAM
@@ -11,6 +11,7 @@ Cài Đặt XrayR tiếng việt với 1 lệnh duy nhất, ae chỉ việt đi�
 ```
 bash <(curl -Ls https://raw.githubusercontent.com/dvsteam/DVS-XrayR/main/dvs-install.sh)
 ```
+
 (Cấu Hình Hiện Tại Chỉ Hỗ Trợ Port 80, Giao Thức V2ray[VMess])
 
 
